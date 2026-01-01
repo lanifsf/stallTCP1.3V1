@@ -1,10 +1,12 @@
-# StallTCP1.3V1 节点订阅管理面板 (D1 数据库增强版) 
+# StallTCP1.32V2 节点订阅管理面板 (D1 数据库增强版) 
 
 **这是一个基于 Cloudflare Workers / Snippets 的高级节点订阅管理与分发系统。**
 
-**源代码来自于AK的strllTCP1.3**
+**源代码来自于AK的strllTCP1.32**
 
 它集成了 **自适应订阅生成**、**优选IP自动负载均衡**、**智能白名单**、**Telegram 实时通知** 以及 **可视化的后台管理面板**。
+
+**新增全局http** 、**全局socks5** 、**替换1.32核心逻辑、传输流**
 
 # 优先级：环境变量-D1数据库-KV空间-本地硬编码
 
@@ -382,7 +384,7 @@ CREATE TABLE IF NOT EXISTS stats (date TEXT PRIMARY KEY, count INTEGER DEFAULT 0
 *   ❇️ Trojan/Vless 订阅器内置 CSV 文件优化识别功能。
 
 **相关支持与链接：**
-*   **源代码作者**：[Alexandre_Kojeve](https://t.me/Alexandre_Kojeve) (致敬原版 stallTCP1.3)
+*   **源代码作者**：[Alexandre_Kojeve](https://t.me/Alexandre_Kojeve) (致敬原版 stallTCP1.32)
 *   **后台作者**：[ym94203](https://t.me/ym94203)
 *   **ProxyIP 支持**：[COMLiang](https://t.me/COMLiang)
 *   **Telegram 交流群**：[zyssadmin](https://t.me/zyssadmin)
